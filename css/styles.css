@@ -447,7 +447,6 @@ ol {
   left: 50%;
   transform: translate(-50%, -70%);
   background-color: #fcfcfc;
-  opacity: 0;
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -457,13 +456,13 @@ ol {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-overlay.is-open .modal {
+/* .modal-overlay.is-open .modal {
   opacity: 1;
   transform: translate(-50%, -50%);
 
   transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity, transform;
-}
+} */
 
 .modal-btn-close {
   position: absolute;
@@ -520,6 +519,10 @@ ol {
 
 .modal-form-field {
   margin-bottom: 8px;
+}
+
+.form-textarea-field {
+  margin-bottom: 16px;
 }
 
 .form-label {
