@@ -445,7 +445,7 @@ ol {
 .modal {
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -50%);
   background-color: #fcfcfc;
   width: 408px;
   min-height: 584px;
@@ -515,14 +515,6 @@ ol {
   flex-direction: column;
   gap: 8px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-field {
-  margin-bottom: 8px;
-}
-
-.form-textarea-field {
-  margin-bottom: 16px;
 }
 
 .form-label {
@@ -654,6 +646,7 @@ ol {
 
 .form-btn-send {
   display: block;
+
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
@@ -667,9 +660,9 @@ ol {
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-  margin-left: 95px;
+  margin: 0 auto;
 }
-/* поменять fill у SVG на темно-серый, чек на фигме */
+
 .form-btn-send:hover {
   background-color: #404bbf;
 }
@@ -761,7 +754,6 @@ ol {
 .sub-form-label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
 }
 .footer-sub-paragraph {
   color: #fff;
